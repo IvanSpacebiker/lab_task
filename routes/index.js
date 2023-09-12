@@ -44,10 +44,8 @@ let dbCheck = function(readerid, bookid) {
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 // ------------------------------ Manual ------------------------------
-let manual = "<h1>/readers</h1><h2>to show/add/edit/clear readers</h2><h1>/books</h1><h2>to show/add/edit/clear books</h2><h1>/events</h1><h2>to add take/return book events</h2>";
-
 router.get('/', function(req, res, next) {
-    res.send(manual);
+    res.send("Librarian helper app");
 });
 // --------------------------------------------------------------------
 // ------------------------------ Readers -----------------------------
